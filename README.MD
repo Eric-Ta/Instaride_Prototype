@@ -1,6 +1,6 @@
 # InstaRide: a public transporation ticket system 
-For this project, I (alongside a group of 4 others) developed a series of front-end prototypes to redesign a public transporation ticket purchasing system.
-The hi-fidelity prototype is created using C# and WPF 
+For this project, I (alongside a group of 4 others) developed a series of front-end prototypes to redesign a public transporation ticket purchasing system. <br />
+The hi-fidelity prototype is created using C# and WPF <br />
 Inside this repository, there is a pdf file called "Final Screenshots PDF.pdf" which contains our hi-fidelity prototyping of the system.
 
 
