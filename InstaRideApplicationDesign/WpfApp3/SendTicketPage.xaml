@@ -1,0 +1,72 @@
+﻿<Page x:Class="WpfApp3.SendTicketPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp3"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="450"
+      Title="SendTicketPage">
+
+    <Grid Background="#FF1861F1">
+
+
+        <Border Background="#FF1C54C2" Height="450" Width="420" Margin="0,70,0,0" CornerRadius="25">
+            <StackPanel>
+
+
+
+
+
+               
+
+
+
+                    <Border Background="#FF1861F1" Height="80" Width="200" Margin="0,40,0,0" CornerRadius="25">
+                    <StackPanel Margin="0,0,0,0">
+                        <TextBlock Text="Ticket Title" Foreground="#FFF" FontSize="15px" FontWeight="Bold" Margin="40,15,0,0"/>
+                        <Border Width="80" Height="20" Background="#FFF" Margin="0,20,0,0">
+                            <TextBlock Text="Select" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#FF1861F1"/>
+                        </Border>
+                        </StackPanel>
+                    </Border>
+
+                <Border Background="#FF1861F1" Height="80" Width="200" Margin="0,40,0,0" CornerRadius="25">
+                    <StackPanel Margin="0,0,0,0">
+                        <TextBlock Text="Ticket Title" Foreground="#FFF" FontSize="15px" FontWeight="Bold" Margin="40,15,0,0"/>
+                        <Border Width="80" Height="20" Background="#000" Margin="0,20,0,0">
+                            <TextBlock Text="Selected" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#FFF"/>
+                        </Border>
+                    </StackPanel>
+                </Border>
+
+
+                <Border Background="#FF1C54C2"  Height="50px" Margin="30,50,30,0" Cursor="Hand" BorderBrush="White" BorderThickness="2" >
+                    <TextBlock Text="SEND" FontSize="20px" FontWeight="Bold" FontFamily="Microsoft JhengHei" Foreground="White"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0"/>
+                </Border>
+
+            </StackPanel>
+        </Border>
+
+
+
+        <StackPanel  x:Name="SP3" Background="#FF1C54C2" Height="45" Width="450" HorizontalAlignment="Stretch" VerticalAlignment="top" Margin="0,50,0,0" MouseDown="ActiveTicketDown">
+            <TextBlock Text="0 Active Tickets" FontSize="15px" FontWeight="Bold" FontFamily="Microsoft JhengHei" Foreground="#FFF"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,5,0,0"/>
+            <TextBlock x:Name="TBPress" Text="Press here to see more details" FontSize="10px" FontFamily="Microsoft JhengHei" Foreground="#FFF"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,0"/>
+
+
+
+            <Button Content="Open Wallet" Height="30px" Width="100px" Margin="0,400,0,0" BorderThickness="1" BorderBrush="#FFF" Foreground="#FFF" Background="#FF1C54C2"/>
+        </StackPanel>
+
+
+
+
+        <StackPanel  x:Name="SP" Orientation="Horizontal" Background="#FF1861F1" Height="50" Width="450" HorizontalAlignment="Stretch" VerticalAlignment="top" Margin="0,0,0,0">
+            <TextBlock Text="&#129032;" FontSize="35px" FontFamily="Microsoft JhengHei" Foreground="#FFF"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20,2,0,0" Cursor="Hand" MouseDown="backBtn"/>
+            <TextBlock Text="Cridet Card" FontSize="25px" FontFamily="Microsoft JhengHei" Foreground="#FFF"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,10,0,0"/>
+        </StackPanel>
+
+    </Grid>
+    
+</Page>
